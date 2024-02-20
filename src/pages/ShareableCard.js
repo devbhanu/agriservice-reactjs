@@ -10,7 +10,7 @@ import IconButton from '@mui/material/IconButton';
 function ShareableCard({ shareContent }) {
   return (
     <Card style={{display:'inline'}}>
-      {shareContent.id}
+      <p>"id":{shareContent.id}</p>
       <CardHeader
         title={shareContent.title} // Using shareContent.title as the title prop
         action={
